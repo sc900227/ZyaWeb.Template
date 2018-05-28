@@ -4,6 +4,7 @@ using ZyaWeb.Persons.Dtos.LTMAutoMapper;
 using ZyaWeb.PersonArticles.Persons;
 using System.Collections.Generic;
 using ZyaWeb.Articles.Dtos;
+using System.ComponentModel;
 
 namespace ZyaWeb.Persons.Dtos
 {
@@ -11,9 +12,12 @@ namespace ZyaWeb.Persons.Dtos
     {
         ////BCC/ BEGIN CUSTOM CODE SECTION
         ////ECC/ END CUSTOM CODE SECTION
+        [Description("姓名")]
         public string Name { get; set; }
+        [Description("邮箱")]
         public string EmailAddress { get; set; }
+        [Description("电话号码")]
         public string PhoneNumber { get; set; }
-        public IEnumerable<ArticleListDto> Articles { get; set; }
+        public IEnumerable<ArticleEditDto> Articles { get; set; }
     }
 }

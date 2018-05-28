@@ -1,4 +1,5 @@
-﻿using Abp.Domain.Entities.Auditing;
+﻿using Abp.Domain.Entities;
+using Abp.Domain.Entities.Auditing;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,7 +11,7 @@ namespace ZyaWeb.PersonArticles.Articles
     /// <summary>
     /// 文章表
     /// </summary>
-    public class Article: FullAuditedEntity
+    public class Article: Entity<int>, IHasCreationTime
     {
         /// <summary>
         /// 标题
@@ -29,6 +30,7 @@ namespace ZyaWeb.PersonArticles.Articles
         /// </summary>
         public int PersonId { get; set; }
         public Person Person { get; set; }
+        public DateTime CreationTime { get; set; }
 
     }
 }

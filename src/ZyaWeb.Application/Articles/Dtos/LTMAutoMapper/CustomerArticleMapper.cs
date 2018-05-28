@@ -14,6 +14,7 @@ namespace ZyaWeb.Articles.Dtos.LTMAutoMapper
             //    configuration.CreateMap <Article, ArticleDto>();
             configuration.CreateMap<Article, ArticleListDto>();
             configuration.CreateMap<ArticleEditDto, Article>();
+            configuration.CreateMap<ArticleDto, Article>();
             // configuration.CreateMap<CreateArticleInput, Article>();
             //        configuration.CreateMap<Article, GetArticleForEditOutput>();
         }

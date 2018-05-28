@@ -150,8 +150,8 @@ namespace ZyaWeb.Articles
         [AbpAuthorize(ArticleAppPermissions.Article_EditArticle)]
         protected virtual async Task UpdateArticleAsync(ArticleEditDto input)
         {
-            //TODO:更新前的逻辑判断，是否允许更新
-            var entity = await _articleRepository.GetAsync(input.Id.Value);
+            //TODO: 更新前的逻辑判断，是否允许更新
+             var entity = await _articleRepository.GetAsync(input.Id.Value);
             input.MapTo(entity);
 
             // ObjectMapper.Map(input, entity);

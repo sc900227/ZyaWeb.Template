@@ -1,20 +1,16 @@
 ﻿using Abp.AutoMapper;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using ZyaWeb.Articles.Dtos.LTMAutoMapper;
+using System.Text;
 using ZyaWeb.PersonArticles.Articles;
 
 namespace ZyaWeb.Articles.Dtos
 {
     [AutoMapTo(typeof(Article))]
-    public class ArticleEditDto
+    public class ArticleDto
     {
-        ////BCC/ BEGIN CUSTOM CODE SECTION
-        ////ECC/ END CUSTOM CODE SECTION
-        public int? Id { get; set; }
-        /// <summary>
-        /// 标题
-        /// </summary>
         [Required]
         [MaxLength(ZyaWebConsts.MaxTitleLength)]
         [Description("文章标题")]
@@ -27,7 +23,5 @@ namespace ZyaWeb.Articles.Dtos
         [MaxLength(ZyaWebConsts.MaxContentLength)]
         [Description("文章内容")]
         public string Content { get; set; }
-        
-        public int PersonId { get; set; }
     }
 }

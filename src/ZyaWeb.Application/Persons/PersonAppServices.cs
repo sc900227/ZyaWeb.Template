@@ -19,7 +19,7 @@ namespace ZyaWeb.Persons
     /// <summary>
     /// Person应用层服务的接口实现方法
     /// </summary>
-    [AbpAuthorize(PersonAppPermissions.Person)]
+    //[AbpAuthorize(PersonAppPermissions.Person)]
     public class PersonAppService : ZyaWebAppServiceBase, IPersonAppService
     {
         ////BCC/ BEGIN CUSTOM CODE SECTION
@@ -134,7 +134,7 @@ namespace ZyaWeb.Persons
         /// <summary>
         /// 新增Person
         /// </summary>
-        [AbpAuthorize(PersonAppPermissions.Person_CreatePerson)]
+        //[AbpAuthorize(PersonAppPermissions.Person_CreatePerson)]
         protected virtual async Task<PersonEditDto> CreatePersonAsync(PersonEditDto input)
         {
             //TODO:新增前的逻辑判断，是否允许新增
@@ -147,7 +147,7 @@ namespace ZyaWeb.Persons
         /// <summary>
         /// 编辑Person
         /// </summary>
-        [AbpAuthorize(PersonAppPermissions.Person_EditPerson)]
+        //[AbpAuthorize(PersonAppPermissions.Person_EditPerson)]
         protected virtual async Task UpdatePersonAsync(PersonEditDto input)
         {
             //TODO:更新前的逻辑判断，是否允许更新
