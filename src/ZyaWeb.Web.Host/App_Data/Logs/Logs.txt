@@ -1,0 +1,146 @@
+DEBUG 2018-05-28 16:48:53,268 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-28 16:48:53,384 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-28 16:48:53,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:53,475 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-28 16:48:53,774 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 16:48:53,774 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 16:48:53,774 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 16:48:53,774 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 16:48:54,346 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 16:48:55,415 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-28 16:48:55,485 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-28 16:48:55,534 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-28 16:48:55,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-28 16:48:55,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-28 16:48:55,746 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-28 16:48:55,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-28 16:48:55,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-28 16:48:55,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-28 16:48:55,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-28 16:48:55,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+INFO  2018-05-28 16:49:06,983 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-28 16:49:10,504 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-28 16:49:10,814 [13   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-28 16:49:10,836 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1106.0172ms
+INFO  2018-05-28 16:49:10,893 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3976.0511ms 302 
+INFO  2018-05-28 16:49:10,931 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-05-28 16:49:10,946 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.279ms 301 
+INFO  2018-05-28 16:49:10,970 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-28 16:49:11,004 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.0312ms 200 text/html
+INFO  2018-05-28 16:49:11,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-28 16:49:11,076 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-05-28 16:49:11,102 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.3513ms 200 text/css
+INFO  2018-05-28 16:49:11,140 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-28 16:49:11,195 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-05-28 16:49:11,216 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\MyVSIX\ZyaWeb\3.8.0\aspnet-core\src\ZyaWeb.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-05-28 16:49:11,226 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-05-28 16:49:11,231 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-28 16:49:11,267 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-05-28 16:49:11,293 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.2816ms 200 application/javascript
+INFO  2018-05-28 16:49:11,333 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\MyVSIX\ZyaWeb\3.8.0\aspnet-core\src\ZyaWeb.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-28 16:49:11,336 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-05-28 16:49:11,374 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.1863ms 200 application/javascript
+INFO  2018-05-28 16:49:11,400 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 256.868ms 200 application/javascript
+INFO  2018-05-28 16:49:11,426 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 303.6657ms 200 application/javascript
+INFO  2018-05-28 16:49:11,818 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-28 16:49:11,824 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-28 16:49:11,922 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-05-28 16:49:11,942 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-28 16:49:11,989 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.7843ms 200 image/png
+INFO  2018-05-28 16:49:12,039 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-28 16:49:12,051 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-05-28 16:49:12,090 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-05-28 16:49:12,119 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.0304ms 200 image/png
+INFO  2018-05-28 16:49:12,137 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.3382ms 404 
+INFO  2018-05-28 16:49:12,149 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-28 16:49:12,161 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.2406ms 404 
+INFO  2018-05-28 16:49:12,281 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 460.2641ms 200 application/json
+DEBUG 2018-05-28 17:04:45,112 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-28 17:04:45,200 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-28 17:04:45,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:45,248 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-28 17:04:45,351 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 17:04:45,351 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 17:04:45,351 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 17:04:45,351 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-28 17:04:45,845 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-28 17:04:46,921 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-28 17:04:46,998 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-28 17:04:47,055 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-28 17:04:47,084 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-28 17:04:47,116 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-28 17:04:47,244 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-28 17:04:47,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-28 17:04:47,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-28 17:04:47,297 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-28 17:04:47,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-28 17:04:47,299 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-28 17:04:47,299 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+INFO  2018-05-28 17:04:51,472 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-28 17:04:55,317 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-28 17:04:55,573 [5    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-28 17:04:55,611 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1030.6962ms
+INFO  2018-05-28 17:04:55,667 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4240.5855ms 302 
+INFO  2018-05-28 17:04:55,704 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-28 17:04:55,754 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.3934ms 200 text/html
+INFO  2018-05-28 17:04:55,814 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-28 17:04:55,853 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-28 17:04:55,868 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.307ms 304 text/css
+INFO  2018-05-28 17:04:55,897 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-28 17:04:55,951 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-05-28 17:04:55,960 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-28 17:04:55,982 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-05-28 17:04:55,984 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-05-28 17:04:55,992 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-28 17:04:56,009 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-05-28 17:04:56,016 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-28 17:04:56,038 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.0279ms 304 application/javascript
+INFO  2018-05-28 17:04:56,074 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.0647ms 304 application/javascript
+INFO  2018-05-28 17:04:56,105 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.8706ms 304 application/javascript
+INFO  2018-05-28 17:04:56,126 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.5958ms 304 application/javascript
+INFO  2018-05-28 17:04:56,480 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-28 17:04:56,509 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-28 17:04:56,553 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-28 17:04:56,583 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.2756ms 404 
+INFO  2018-05-28 17:04:56,604 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-28 17:04:56,636 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.6316ms 404 
+INFO  2018-05-28 17:04:56,883 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 420.7638ms 200 application/json
