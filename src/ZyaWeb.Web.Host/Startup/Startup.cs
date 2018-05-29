@@ -15,6 +15,7 @@ using Abp.Extensions;
 using ZyaWeb.Authentication.JwtBearer;
 using ZyaWeb.Configuration;
 using ZyaWeb.Identity;
+using Newtonsoft.Json.Serialization;
 
 #if FEATURE_SIGNALR
 using Microsoft.AspNet.SignalR;
@@ -44,7 +45,7 @@ namespace ZyaWeb.Web.Host.Startup
             // MVC
             services.AddMvc(
                 options => options.Filters.Add(new CorsAuthorizationFilterFactory(_defaultCorsPolicyName))
-            );
+            )/*.AddJsonOptions(op => op.SerializerSettings.ContractResolver = new DefaultContractResolver())*/;
 
             IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);

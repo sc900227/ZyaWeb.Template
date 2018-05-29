@@ -7037,6 +7037,7 @@
     <None Include="iview-admin-dev\src\views\my-components\text-editor\tinymce\skins\lightgray\fonts\tinymce.woff" />
     <None Include="iview-admin-dev\src\views\own-space\own-space.less" />
     <None Include="iview-admin-dev\src\views\own-space\own-space.vue" />
+    <None Include="iview-admin-dev\src\views\person-page\PersonInfoPage.vue" />
     <None Include="iview-admin-dev\src\views\tables\components\canEditTable.vue" />
     <None Include="iview-admin-dev\src\views\tables\components\dragableTable.vue" />
     <None Include="iview-admin-dev\src\views\tables\components\editable-table.less" />

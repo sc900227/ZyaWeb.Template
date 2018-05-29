@@ -11,7 +11,7 @@ namespace ZyaWeb.PersonArticles.Articles
     /// <summary>
     /// 文章表
     /// </summary>
-    public class Article: Entity<int>, IHasCreationTime
+    public class Article: FullAuditedEntity
     {
         /// <summary>
         /// 标题
@@ -30,7 +30,7 @@ namespace ZyaWeb.PersonArticles.Articles
         /// </summary>
         public int PersonId { get; set; }
         public Person Person { get; set; }
-        public DateTime CreationTime { get; set; }
+        
 
     }
 }

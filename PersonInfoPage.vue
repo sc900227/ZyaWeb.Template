@@ -5,7 +5,7 @@
     <div>
       <Card>
         <p slot="title">
-          <Icon type="help-buoy"></Icon>$Title$
+          <Icon type="help-buoy"></Icon>人员管理
         </p>
             <crud-table :table-data="tableData" :columns="columns" :total="total" :page-option="pageOption"
                           :on-ok="handleOk" 
@@ -18,7 +18,7 @@
                   <Form slot="modal-content" ref="crudItem"
                         :model="crudItem" 
                         :rules="ruleValidate" label-position="right" :label-width="100">
-                        $FormItem$
+                        <FormItem label='"姓名"' prop='Name'><Input v-model='crudItem.Name' placeholder=''></Input></FormItem><FormItem label='"邮箱"' prop='EmailAddress'><Input v-model='crudItem.EmailAddress' placeholder=''></Input></FormItem><FormItem label='"电话号码"' prop='PhoneNumber'><Input v-model='crudItem.PhoneNumber' placeholder=''></Input></FormItem>
                   </Form>
                   <Row slot="filter" :gutter="16">
                     <Col span="8">
@@ -37,28 +37,28 @@
 import CrudTable from "../common/crudTable.vue";
 
 export default {
-  name: "$PageName$",
+  name: "PersonInfoPage",
   components: {
     CrudTable
   },
   data() {
     return {
-      columns: $Columns$,
+      columns: [{"title":"编号","key":"Id","sortable":"custom","handle":""},{"title":"\"姓名\"","key":"name","sortable":"custom","handle":""},{"title":"\"邮箱\"","key":"emailAddress","sortable":"custom","handle":""},{"title":"\"电话号码\"","key":"phoneNumber","sortable":"custom","handle":""},{"title":"","key":"articles","sortable":"custom","handle":""},{ 'title': '操作','key': 'action','handle':['edit', 'delete']}],
       tableData: [],
       pageOption: { pageIndex: 1, pageSize: 10 },
       total: 0,
       tableLoading: true,
       filterEnter: {},
       orderBy: "ID",
-      url: "$Url$",
+      url: "api/services/app/Person/",
       header: {
         headers: { "Content-Type": "application/json" }
       },
       crudItem: {
-        $CrudItem$
+        Id:null,Name:null,EmailAddress:null,PhoneNumber:null,Articles:null
       },
       ruleValidate: {
-        $RuleValidate$
+        Id:[{"required":true,"message":"不能为空！","trigger":"blur"}],Name:[{"required":true,"message":"\"姓名\"不能为空！","trigger":"blur"}],EmailAddress:[{"required":true,"message":"\"邮箱\"不能为空！","trigger":"blur"}],PhoneNumber:[{"required":true,"message":"\"电话号码\"不能为空！","trigger":"blur"}],Articles:[{"required":true,"message":"不能为空！","trigger":"blur"}]
       }
     };
   },
@@ -96,11 +96,11 @@ export default {
       };
 
       vm.$http
-        .get(vm.url + "$Select$", params, vm.header)
+        .get(vm.url + "GetPagedPersons", params, vm.header)
         .then(response => {
           console.log(response);
-          vm.tableData = response.data.result["items"];
-          vm.total = Number(response.data.result["totalCount"]);
+          vm.tableData = response.data.Result["Items"];
+          vm.total = Number(response.data.Result["TotalCount"]);
           vm.tableLoading = false;
         })
         .catch(error => {
@@ -118,8 +118,8 @@ export default {
     },
     handleOk() {
       let vm = this;
-      let params = {$ParamHead$:{
-        $Params$
+      let params = {person:{
+        Id:vm.crudItem.Id,Name:vm.crudItem.Name,EmailAddress:vm.crudItem.EmailAddress,PhoneNumber:vm.crudItem.PhoneNumber,Articles:vm.crudItem.Articles
       }};
 
       return new Promise(resolve => {
@@ -129,13 +129,13 @@ export default {
             vm.crudItem.Id = vm.crudItem.Id || undefined;
             if (!vm.crudItem.Id) {
               promise = vm.$http.post(
-                vm.url + "$Insert$",
+                vm.url + "CreateOrUpdatePerson",
                 params,
                 vm.header
               );
             } else {
               promise = vm.$http.post(
-                vm.url + "$Update$",
+                vm.url + "CreateOrUpdatePerson",
                 params,
                 vm.header
               );
@@ -166,13 +166,13 @@ export default {
       let item = this.crudItem;
       //赋值所有值
       for (var prop in item) {
-        item[prop] = val[prop.substring(0,1).toLowerCase()+prop.substring(1)];
+        item[prop] = val[prop];
       }
     },
     handleDelete(val) {
       let vm = this;
       vm.$http
-        .delete(vm.url + "$Delete$?Id=" + val.id)
+        .delete(vm.url + "DeletePerson?Id=" + val.Id)
         .then(() => {
           vm.$Message.success("已成功删除");
           vm.fetchData();

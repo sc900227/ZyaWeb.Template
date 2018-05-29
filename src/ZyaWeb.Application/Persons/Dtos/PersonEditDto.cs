@@ -31,6 +31,6 @@ namespace ZyaWeb.Persons.Dtos
         [MaxLength(11)]
         [Description("电话号码")]
         public string PhoneNumber { get; set; }
-        public List<ArticleEditDto> Articles { get; set; }
+        public IEnumerable<ArticleEditDto> Articles { get; set; }
     }
 }

@@ -163,7 +163,7 @@ namespace ZyaWeb.Persons
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        [AbpAuthorize(PersonAppPermissions.Person_DeletePerson)]
+        //[AbpAuthorize(PersonAppPermissions.Person_DeletePerson)]
         public async Task DeletePerson(EntityDto<int> input)
         {
 
