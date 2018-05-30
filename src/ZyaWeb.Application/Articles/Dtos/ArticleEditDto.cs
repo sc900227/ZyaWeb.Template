@@ -6,11 +6,12 @@ using ZyaWeb.PersonArticles.Articles;
 
 namespace ZyaWeb.Articles.Dtos
 {
-    [AutoMapTo(typeof(Article))]
+   
     public class ArticleEditDto
     {
         ////BCC/ BEGIN CUSTOM CODE SECTION
         ////ECC/ END CUSTOM CODE SECTION
+        [Description("Id")]
         public int? Id { get; set; }
         /// <summary>
         /// 标题
@@ -27,7 +28,8 @@ namespace ZyaWeb.Articles.Dtos
         [MaxLength(ZyaWebConsts.MaxContentLength)]
         [Description("文章内容")]
         public string Content { get; set; }
-        
+        [Description("人员Id")]
+
         public int PersonId { get; set; }
     }
 }

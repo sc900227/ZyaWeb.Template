@@ -19,7 +19,7 @@ namespace ZyaWeb.Articles
     /// <summary>
     /// Article应用层服务的接口实现方法
     /// </summary>
-    [AbpAuthorize(ArticleAppPermissions.Article)]
+    //[AbpAuthorize(ArticleAppPermissions.Article)]
     public class ArticleAppService : ZyaWebAppServiceBase, IArticleAppService
     {
         ////BCC/ BEGIN CUSTOM CODE SECTION
@@ -134,7 +134,7 @@ namespace ZyaWeb.Articles
         /// <summary>
         /// 新增Article
         /// </summary>
-        [AbpAuthorize(ArticleAppPermissions.Article_CreateArticle)]
+        //[AbpAuthorize(ArticleAppPermissions.Article_CreateArticle)]
         protected virtual async Task<ArticleEditDto> CreateArticleAsync(ArticleEditDto input)
         {
             //TODO:新增前的逻辑判断，是否允许新增
@@ -147,7 +147,7 @@ namespace ZyaWeb.Articles
         /// <summary>
         /// 编辑Article
         /// </summary>
-        [AbpAuthorize(ArticleAppPermissions.Article_EditArticle)]
+        //[AbpAuthorize(ArticleAppPermissions.Article_EditArticle)]
         protected virtual async Task UpdateArticleAsync(ArticleEditDto input)
         {
             //TODO: 更新前的逻辑判断，是否允许更新
@@ -163,7 +163,7 @@ namespace ZyaWeb.Articles
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        [AbpAuthorize(ArticleAppPermissions.Article_DeleteArticle)]
+        //[AbpAuthorize(ArticleAppPermissions.Article_DeleteArticle)]
         public async Task DeleteArticle(EntityDto<int> input)
         {
 

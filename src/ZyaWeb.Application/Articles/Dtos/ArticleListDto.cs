@@ -14,6 +14,7 @@ namespace ZyaWeb.Articles.Dtos
         public string Title { get; set; }
         [Description("文章内容")]
         public string Content { get; set; }
+        [Description("人员Id")]
         public int PersonId { get; set; }
     }
 }

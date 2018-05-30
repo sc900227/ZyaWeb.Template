@@ -5,7 +5,7 @@
     <div>
       <Card>
         <p slot="title">
-          <Icon type="help-buoy"></Icon>达到
+          <Icon type="help-buoy"></Icon>人员管理
         </p>
             <crud-table :table-data="tableData" :columns="columns" :total="total" :page-option="pageOption"
                           :on-ok="handleOk" 
@@ -18,7 +18,7 @@
                   <Form slot="modal-content" ref="crudItem"
                         :model="crudItem" 
                         :rules="ruleValidate" label-position="right" :label-width="100">
-                        <FormItem label='"姓名"' prop='Name'><Input v-model='crudItem.Name' placeholder=''></Input></FormItem><FormItem label='"邮箱"' prop='EmailAddress'><Input v-model='crudItem.EmailAddress' placeholder=''></Input></FormItem><FormItem label='"电话号码"' prop='PhoneNumber'><Input v-model='crudItem.PhoneNumber' placeholder=''></Input></FormItem>
+                        <FormItem label='"文章标题"' prop='Title'><Input v-model='crudItem.Title' placeholder=''></Input></FormItem><FormItem label='"文章内容"' prop='Content'><Input v-model='crudItem.Content' placeholder=''></Input></FormItem><FormItem label='"人员Id"' prop='PersonId'><Input v-model='crudItem.PersonId' placeholder=''></Input></FormItem>
                   </Form>
                   <Row slot="filter" :gutter="16">
                     <Col span="8">
@@ -37,28 +37,28 @@
 import CrudTable from "../common/crudTable.vue";
 
 export default {
-  name: "PersonInfoPage",
+  name: "ArticleInfoPage",
   components: {
     CrudTable
   },
   data() {
     return {
-      columns: [{"title":"编号","key":"id","sortable":"custom","handle":""},{"title":"\"姓名\"","key":"name","sortable":"custom","handle":""},{"title":"\"邮箱\"","key":"emailAddress","sortable":"custom","handle":""},{"title":"\"电话号码\"","key":"phoneNumber","sortable":"custom","handle":""},{"title":"","key":"articles","sortable":"custom","handle":""},{ 'title': '操作','key': 'action','handle':['edit', 'delete']}],
+      columns: [{"title":"编号","key":"id","sortable":"custom","handle":""},{"title":"\"文章标题\"","key":"title","sortable":"custom","handle":""},{"title":"\"文章内容\"","key":"content","sortable":"custom","handle":""},{"title":"\"人员Id\"","key":"personId","sortable":"custom","handle":""},{ 'title': '操作','key': 'action','handle':['edit', 'delete']}],
       tableData: [],
       pageOption: { pageIndex: 1, pageSize: 10 },
       total: 0,
       tableLoading: true,
       filterEnter: {},
       orderBy: "ID",
-      url: "api/services/app/Person/",
+      url: "api/services/app/Article/",
       header: {
         headers: { "Content-Type": "application/json" }
       },
       crudItem: {
-        Id:null,Name:null,EmailAddress:null,PhoneNumber:null,Articles:null
+        Id:null,Title:null,Content:null,PersonId:null
       },
       ruleValidate: {
-        Id:[{"required":true,"message":"不能为空！","trigger":"blur"}],Name:[{"required":true,"message":"\"姓名\"不能为空！","trigger":"blur"}],EmailAddress:[{"required":true,"message":"\"邮箱\"不能为空！","trigger":"blur"}],PhoneNumber:[{"required":true,"message":"\"电话号码\"不能为空！","trigger":"blur"}],Articles:[{"required":true,"message":"不能为空！","trigger":"blur"}]
+        Id:[{"required":true,"message":"\"Id\"不能为空！","trigger":"blur"}],Title:[{"required":true,"message":"\"文章标题\"不能为空！","trigger":"blur"}],Content:[{"required":true,"message":"\"文章内容\"不能为空！","trigger":"blur"}],PersonId:[{"required":true,"message":"\"人员Id\"不能为空！","trigger":"blur"}]
       }
     };
   },
@@ -96,7 +96,7 @@ export default {
       };
 
       vm.$http
-        .get(vm.url + "GetPagedPersons", params, vm.header)
+        .get(vm.url + "GetPagedArticles", params, vm.header)
         .then(response => {
           console.log(response);
           vm.tableData = response.data.result["items"];
@@ -118,8 +118,8 @@ export default {
     },
     handleOk() {
       let vm = this;
-      let params = {person:{
-        Id:vm.crudItem.Id,Name:vm.crudItem.Name,EmailAddress:vm.crudItem.EmailAddress,PhoneNumber:vm.crudItem.PhoneNumber,Articles:vm.crudItem.Articles
+      let params = {article:{
+        Id:vm.crudItem.Id,Title:vm.crudItem.Title,Content:vm.crudItem.Content,PersonId:vm.crudItem.PersonId
       }};
 
       return new Promise(resolve => {
@@ -129,13 +129,13 @@ export default {
             vm.crudItem.Id = vm.crudItem.Id || undefined;
             if (!vm.crudItem.Id) {
               promise = vm.$http.post(
-                vm.url + "CreateOrUpdatePerson",
+                vm.url + "CreateOrUpdateArticle",
                 params,
                 vm.header
               );
             } else {
               promise = vm.$http.post(
-                vm.url + "CreateOrUpdatePerson",
+                vm.url + "CreateOrUpdateArticle",
                 params,
                 vm.header
               );
@@ -172,7 +172,7 @@ export default {
     handleDelete(val) {
       let vm = this;
       vm.$http
-        .delete(vm.url + "DeletePerson?Id=" + val.id)
+        .delete(vm.url + "DeleteArticle?Id=" + val.id)
         .then(() => {
           vm.$Message.success("已成功删除");
           vm.fetchData();

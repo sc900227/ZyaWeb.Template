@@ -5333,3 +5333,1098 @@ INFO  2018-05-29 17:40:26,040 [4    ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-05-29 17:40:27,827 [20   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
 INFO  2018-05-29 17:40:27,833 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 1814.9734ms
 INFO  2018-05-29 17:40:27,840 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1854.8924ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 09:55:57,271 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 09:55:57,478 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 09:55:57,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:57,531 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 09:55:57,680 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 09:55:57,680 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 09:55:57,680 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 09:55:57,680 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 09:55:58,186 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 09:55:59,211 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 09:55:59,281 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 09:55:59,333 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 09:55:59,355 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 09:55:59,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 09:55:59,566 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 09:55:59,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-05-30 09:55:59,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 09:55:59,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 09:55:59,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 09:55:59,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Persons.Dtos.PersonEditDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+DEBUG 2018-05-30 09:55:59,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleEditDto
+INFO  2018-05-30 09:56:05,565 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 09:56:09,595 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 09:56:10,012 [11   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 09:56:10,056 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1270.0705ms
+INFO  2018-05-30 09:56:10,118 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4622.0576ms 302 
+INFO  2018-05-30 09:56:10,140 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 09:56:10,194 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.752ms 200 text/html
+INFO  2018-05-30 09:56:10,226 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 09:56:10,262 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 09:56:10,270 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.3548ms 304 text/css
+INFO  2018-05-30 09:56:10,378 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 09:56:10,387 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-05-30 09:56:10,394 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 09:56:10,401 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-05-30 09:56:10,419 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.1605ms 304 application/javascript
+INFO  2018-05-30 09:56:10,439 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 09:56:10,452 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-05-30 09:56:10,474 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-05-30 09:56:10,483 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.8791ms 304 application/javascript
+INFO  2018-05-30 09:56:10,486 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 09:56:10,517 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 125.0423ms 304 application/javascript
+INFO  2018-05-30 09:56:10,542 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.1964ms 304 application/javascript
+INFO  2018-05-30 09:56:10,918 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 09:56:10,928 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 09:56:10,996 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 09:56:11,005 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.5328ms 404 
+INFO  2018-05-30 09:56:11,034 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 09:56:11,045 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.0695ms 404 
+INFO  2018-05-30 09:56:11,396 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 466.2925ms 200 application/json
+INFO  2018-05-30 10:09:08,526 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 10:09:09,299 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 10:09:12,335 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 10:09:12,396 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 3789.3879ms
+INFO  2018-05-30 10:09:12,406 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3884.6742ms 200 application/json; charset=utf-8
+INFO  2018-05-30 10:09:25,638 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/Person/DeletePerson?Id=5  0
+INFO  2018-05-30 10:09:25,672 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 10:09:25,695 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 10:09:25,713 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.DeletePerson (ZyaWeb.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int32]) - ModelState is Valid
+INFO  2018-05-30 10:09:26,848 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 10:09:26,862 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.DeletePerson (ZyaWeb.Application) in 1158.2887ms
+INFO  2018-05-30 10:09:26,880 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1249.7147ms 200 application/json; charset=utf-8
+INFO  2018-05-30 10:09:27,384 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 10:09:27,411 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 10:09:28,247 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 10:09:28,254 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 849.882ms
+INFO  2018-05-30 10:09:28,269 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 895.083ms 200 application/json; charset=utf-8
+INFO  2018-05-30 10:09:35,020 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json 101
+INFO  2018-05-30 10:09:35,045 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 10:09:35,061 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 10:09:35,194 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-05-30 10:09:36,303 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 10:09:36,329 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) in 1246.8859ms
+INFO  2018-05-30 10:09:36,341 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1349.3885ms 200 application/json; charset=utf-8
+INFO  2018-05-30 10:09:36,357 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 10:09:36,389 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 10:09:36,918 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 10:09:36,923 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 555.6984ms
+INFO  2018-05-30 10:09:36,948 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 569.8581ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 11:26:26,491 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 11:26:26,815 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 11:26:26,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:26,867 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 11:26:26,973 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:26:26,973 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:26:26,973 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:26:26,973 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:26:27,492 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:26:28,523 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 11:26:28,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 11:26:28,643 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 11:26:28,672 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 11:26:28,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 11:26:28,848 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 11:26:28,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 11:26:28,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 11:26:28,901 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 11:26:28,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 11:26:34,428 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 11:26:38,264 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 11:26:38,561 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 11:26:38,584 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1118.8602ms
+INFO  2018-05-30 11:26:38,639 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4276.1401ms 302 
+INFO  2018-05-30 11:26:38,678 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 11:26:38,737 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.0214ms 200 text/html
+INFO  2018-05-30 11:26:38,749 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 11:26:38,785 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 11:26:38,799 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.6284ms 304 text/css
+INFO  2018-05-30 11:26:38,897 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 11:26:38,899 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 11:26:38,947 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 11:26:38,971 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 11:26:39,017 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.4154ms 304 application/javascript
+INFO  2018-05-30 11:26:39,020 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.2453ms 304 application/javascript
+INFO  2018-05-30 11:26:39,506 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 11:26:39,516 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 11:26:39,552 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 11:26:39,565 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.5593ms 404 
+INFO  2018-05-30 11:26:39,582 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 11:26:39,602 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.832ms 404 
+INFO  2018-05-30 11:26:39,921 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 416.9642ms 200 application/json
+INFO  2018-05-30 11:27:22,308 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 11:27:22,901 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 11:27:28,730 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:27:28,768 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 6403.6492ms
+INFO  2018-05-30 11:27:28,778 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6473.0954ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:27:35,089 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json 103
+INFO  2018-05-30 11:27:35,126 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:27:35,164 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:27:35,290 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-05-30 11:27:36,253 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:27:36,259 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) in 1114.0498ms
+INFO  2018-05-30 11:27:36,270 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1203.9436ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:27:36,291 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 11:27:36,323 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 11:27:36,997 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:27:37,001 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 700.9165ms
+INFO  2018-05-30 11:27:37,009 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 717.2722ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:27:54,737 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json 107
+INFO  2018-05-30 11:27:54,748 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:27:54,759 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:27:54,770 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-05-30 11:27:56,720 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:27:56,745 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.CreateOrUpdatePerson (ZyaWeb.Application) in 1966.3582ms
+INFO  2018-05-30 11:27:56,794 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2023.2835ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:27:56,819 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 11:27:56,849 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 11:27:57,545 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:27:57,551 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 721.799ms
+INFO  2018-05-30 11:27:57,569 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 783.6989ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:35:18,036 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 11:35:18,401 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 11:35:22,052 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:35:22,078 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 3810.9882ms
+INFO  2018-05-30 11:35:22,092 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4221.1699ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:35:25,246 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+WARN  2018-05-30 11:35:26,450 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-05-30 11:35:26,498 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-05-30 11:35:26,524 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:35:26,567 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1174.3937ms
+INFO  2018-05-30 11:35:26,592 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1329.6275ms 401 application/json; charset=utf-8
+INFO  2018-05-30 11:35:42,454 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+WARN  2018-05-30 11:35:42,469 [4    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-05-30 11:35:42,480 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-05-30 11:35:42,508 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:35:42,522 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 45.1866ms
+INFO  2018-05-30 11:35:42,539 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.6401ms 401 application/json; charset=utf-8
+DEBUG 2018-05-30 11:37:12,259 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 11:37:13,216 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 11:37:13,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:13,275 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 11:37:13,409 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:37:13,409 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:37:13,409 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:37:13,409 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 11:37:13,959 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 11:37:15,009 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 11:37:15,089 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 11:37:15,138 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 11:37:15,161 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 11:37:15,197 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 11:37:15,387 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 11:37:15,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 11:37:15,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 11:37:15,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 11:37:15,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 11:37:15,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 11:37:15,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 11:37:15,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 11:37:20,190 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 11:37:24,378 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 11:37:24,677 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 11:37:24,701 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1183.0475ms
+INFO  2018-05-30 11:37:24,760 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4629.5994ms 302 
+INFO  2018-05-30 11:37:24,779 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 11:37:24,845 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.7997ms 200 text/html
+INFO  2018-05-30 11:37:24,854 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 11:37:24,886 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 11:37:24,901 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.538ms 304 text/css
+INFO  2018-05-30 11:37:24,972 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 11:37:24,974 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 11:37:25,001 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 11:37:25,010 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.9782ms 304 application/javascript
+INFO  2018-05-30 11:37:25,028 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 11:37:25,046 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.0486ms 304 application/javascript
+INFO  2018-05-30 11:37:25,499 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 11:37:25,519 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 11:37:25,568 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 11:37:25,576 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.0551ms 404 
+INFO  2018-05-30 11:37:25,585 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 11:37:25,635 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.4362ms 404 
+INFO  2018-05-30 11:37:25,950 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 465.4226ms 200 application/json
+INFO  2018-05-30 11:37:41,998 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 11:37:42,743 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 11:37:43,557 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:37:43,586 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1504.8707ms
+INFO  2018-05-30 11:37:43,591 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1616.1503ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:37:46,675 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 11:37:46,950 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 11:37:48,518 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:37:48,557 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 1846.1221ms
+INFO  2018-05-30 11:37:48,566 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1888.5667ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:38:14,560 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 102
+INFO  2018-05-30 11:38:14,591 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:38:14,607 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-05-30 11:38:14,873 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-05-30 11:38:14,879 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-05-30 11:38:14,879 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (article.PersonId)
+INFO  2018-05-30 11:38:15,180 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:38:15,208 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 581.9566ms
+INFO  2018-05-30 11:38:15,238 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 659.779ms 400 application/json; charset=utf-8
+INFO  2018-05-30 11:38:23,134 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle  
+INFO  2018-05-30 11:38:23,161 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.9559ms 404 
+INFO  2018-05-30 11:42:11,933 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 90
+INFO  2018-05-30 11:42:11,960 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:42:11,971 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-05-30 11:42:11,992 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-05-30 11:42:11,996 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-05-30 11:42:11,996 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter -  (article.PersonId)
+INFO  2018-05-30 11:42:12,023 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:42:12,048 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 58.3362ms
+INFO  2018-05-30 11:42:12,055 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.4163ms 400 application/json; charset=utf-8
+INFO  2018-05-30 11:42:23,455 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 96
+INFO  2018-05-30 11:42:23,478 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:42:23,505 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-05-30 11:42:23,621 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-05-30 11:42:23,629 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-05-30 11:42:23,629 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (article.PersonId)
+INFO  2018-05-30 11:42:23,640 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:42:23,654 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 158.6263ms
+INFO  2018-05-30 11:42:23,661 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 204.5515ms 400 application/json; charset=utf-8
+INFO  2018-05-30 11:43:55,494 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 84
+INFO  2018-05-30 11:43:55,499 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:43:55,528 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-05-30 11:43:55,568 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-05-30 11:43:55,572 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-05-30 11:43:55,572 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (article.PersonId)
+INFO  2018-05-30 11:43:55,599 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:43:55,605 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 95.9161ms
+INFO  2018-05-30 11:43:55,612 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.5883ms 400 application/json; charset=utf-8
+INFO  2018-05-30 11:47:42,070 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 96
+INFO  2018-05-30 11:47:42,077 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:47:42,086 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:47:42,111 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+ERROR 2018-05-30 11:47:57,585 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"FK_Articles_Persons_PersonId"冲突。该冲突发生于数据库"ZyaWebDb"，表"dbo.Persons", column 'Id'。
+语句已终止。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__49.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\AbpDbContext.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.<SaveChangesAsync>d__98.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore.EntityFrameworkCore\Zero\EntityFrameworkCore\AbpZeroCommonDbContext.cs:line 165
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesInDbContextAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 163
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesAsync>d__12.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<CompleteUowAsync>d__14.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkBase.<CompleteAsync>d__57.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 276
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter.<OnActionExecutionAsync>d__4.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Uow\AbpUowActionFilter.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-30 11:47:57,607 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:47:57,612 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 15525.8148ms
+INFO  2018-05-30 11:47:57,620 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15569.846ms 500 application/json; charset=utf-8
+INFO  2018-05-30 11:50:19,747 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 87
+INFO  2018-05-30 11:50:19,772 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:50:19,782 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:50:19,813 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+INFO  2018-05-30 11:50:21,471 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:50:21,479 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 1694.4357ms
+INFO  2018-05-30 11:50:21,484 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1739.2342ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:50:21,815 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 11:50:21,854 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 11:50:21,914 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:50:21,922 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 98.2258ms
+INFO  2018-05-30 11:50:21,929 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.2707ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:50:38,253 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/Article/DeleteArticle?Id=2  0
+INFO  2018-05-30 11:50:38,263 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:50:38,281 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 11:50:38,298 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.DeleteArticle (ZyaWeb.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int32]) - ModelState is Valid
+INFO  2018-05-30 11:50:38,438 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:50:38,447 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.DeleteArticle (ZyaWeb.Application) in 166.4834ms
+INFO  2018-05-30 11:50:38,454 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 199.7709ms 200 application/json; charset=utf-8
+INFO  2018-05-30 11:50:38,484 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 11:50:38,497 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 11:50:38,529 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 11:50:38,534 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 40.4638ms
+INFO  2018-05-30 11:50:38,542 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.5521ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 14:16:56,549 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 14:16:56,605 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 14:16:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,648 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:56,653 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 14:16:56,753 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:16:56,753 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:16:56,753 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:16:56,753 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:16:57,210 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:16:57,732 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 14:16:57,798 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 14:16:57,840 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 14:16:57,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 14:16:57,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 14:16:57,922 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 14:16:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 14:16:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 14:16:57,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 14:16:57,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 14:17:01,251 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:17:02,588 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:17:03,452 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:17:03,638 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1340.0034ms
+INFO  2018-05-30 14:17:03,662 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2440.5117ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 14:17:20,514 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 14:17:20,635 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 14:17:20,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:20,691 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 14:17:20,804 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:17:20,804 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:17:20,804 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:17:20,804 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:17:21,281 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:17:22,306 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 14:17:22,378 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 14:17:22,426 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 14:17:22,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 14:17:22,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 14:17:22,655 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 14:17:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 14:17:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 14:17:22,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 14:17:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 14:17:26,756 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 14:17:30,436 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 14:17:30,687 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 14:17:30,709 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1042.0613ms
+INFO  2018-05-30 14:17:30,768 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4077.9028ms 302 
+INFO  2018-05-30 14:17:30,789 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 14:17:30,841 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.7714ms 200 text/html
+INFO  2018-05-30 14:17:30,859 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 14:17:30,906 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 14:17:30,915 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.6479ms 304 text/css
+INFO  2018-05-30 14:17:30,951 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 14:17:31,002 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 14:17:31,023 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-05-30 14:17:31,066 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 14:17:31,087 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-05-30 14:17:31,114 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.6774ms 304 application/javascript
+INFO  2018-05-30 14:17:31,138 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 14:17:31,147 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-05-30 14:17:31,161 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-05-30 14:17:31,179 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.2383ms 304 application/javascript
+INFO  2018-05-30 14:17:31,191 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.0918ms 304 application/javascript
+INFO  2018-05-30 14:17:31,207 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.4776ms 304 application/javascript
+INFO  2018-05-30 14:17:31,671 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 14:17:31,690 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 14:17:31,739 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.861ms 404 
+INFO  2018-05-30 14:17:31,762 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 14:17:31,771 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.4843ms 404 
+INFO  2018-05-30 14:17:31,776 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 14:17:32,109 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 464.8853ms 200 application/json
+INFO  2018-05-30 14:17:38,684 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:17:39,493 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:17:40,172 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:17:40,213 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1453.6017ms
+INFO  2018-05-30 14:17:40,235 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1540.7772ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 14:24:40,279 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 14:24:40,411 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 14:24:40,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:40,474 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 14:24:40,640 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:24:40,641 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:24:40,641 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:24:40,641 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:24:41,198 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:24:42,379 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 14:24:42,457 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 14:24:42,509 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 14:24:42,534 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 14:24:42,567 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 14:24:42,766 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 14:24:42,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 14:24:42,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 14:24:42,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 14:24:42,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 14:24:42,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 14:24:42,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 14:24:42,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 14:24:47,757 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 14:24:52,268 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 14:24:52,592 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 14:24:52,623 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1289.8225ms
+INFO  2018-05-30 14:24:52,695 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4980.977ms 302 
+INFO  2018-05-30 14:24:52,720 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 14:24:52,777 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.3339ms 200 text/html
+INFO  2018-05-30 14:24:52,794 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 14:24:52,827 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 14:24:52,839 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.1173ms 304 text/css
+INFO  2018-05-30 14:24:52,923 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 14:24:52,933 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 14:24:52,961 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 14:24:53,009 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 14:24:53,031 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.3095ms 304 application/javascript
+INFO  2018-05-30 14:24:53,070 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.1995ms 304 application/javascript
+INFO  2018-05-30 14:24:53,414 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 14:24:53,442 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 14:24:53,497 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 14:24:53,510 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9537ms 404 
+INFO  2018-05-30 14:24:53,537 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 14:24:53,561 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.9451ms 404 
+INFO  2018-05-30 14:24:53,877 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 462.7218ms 200 application/json
+DEBUG 2018-05-30 14:27:34,393 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 14:27:34,523 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 14:27:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:34,579 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 14:27:34,709 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:27:34,709 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:27:34,709 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:27:34,709 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 14:27:35,188 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 14:27:36,189 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 14:27:36,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 14:27:36,304 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 14:27:36,325 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 14:27:36,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 14:27:36,508 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 14:27:36,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 14:27:36,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 14:27:36,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 14:27:36,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 14:27:36,576 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 14:27:41,211 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 14:27:46,055 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 14:27:46,344 [13   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 14:27:46,386 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1245.9657ms
+INFO  2018-05-30 14:27:46,450 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5283.5762ms 302 
+INFO  2018-05-30 14:27:46,481 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 14:27:46,555 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.9478ms 200 text/html
+INFO  2018-05-30 14:27:46,658 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 14:27:46,669 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 14:27:46,674 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 14:27:46,716 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 14:27:46,724 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 14:27:46,741 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 14:27:46,785 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.7658ms 304 application/javascript
+INFO  2018-05-30 14:27:46,821 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.6827ms 304 text/css
+INFO  2018-05-30 14:27:46,854 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.2193ms 304 application/javascript
+INFO  2018-05-30 14:27:47,198 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 14:27:47,227 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 14:27:47,722 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 526.2683ms 200 application/json
+INFO  2018-05-30 14:27:57,433 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:27:58,211 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:27:58,955 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:27:59,000 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1488.1386ms
+INFO  2018-05-30 14:27:59,010 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1597.3313ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:05,506 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 14:28:05,762 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 14:28:08,090 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:08,107 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 2587.7562ms
+INFO  2018-05-30 14:28:08,114 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2625.4305ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:22,473 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 92
+INFO  2018-05-30 14:28:22,505 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 14:28:22,539 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 14:28:22,677 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+INFO  2018-05-30 14:28:24,147 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:24,171 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 1631.6919ms
+INFO  2018-05-30 14:28:24,183 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1709.3939ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:24,224 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:28:24,247 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:28:24,281 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:24,289 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 51.7633ms
+INFO  2018-05-30 14:28:24,297 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.9064ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:39,336 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 89
+INFO  2018-05-30 14:28:39,343 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 14:28:39,351 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 14:28:39,361 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+INFO  2018-05-30 14:28:43,365 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:43,389 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 4018.7087ms
+INFO  2018-05-30 14:28:43,395 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4060.4869ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:43,720 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:28:43,751 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:28:43,788 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:43,814 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 64.3466ms
+INFO  2018-05-30 14:28:43,819 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.1189ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:48,371 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:28:48,403 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:28:48,429 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:48,435 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 54.8115ms
+INFO  2018-05-30 14:28:48,443 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.9527ms 200 application/json; charset=utf-8
+INFO  2018-05-30 14:28:50,415 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 14:28:50,450 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 14:28:50,484 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 14:28:50,493 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 63.5083ms
+INFO  2018-05-30 14:28:50,500 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.2475ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 15:44:06,521 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 15:44:06,858 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 15:44:06,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:06,935 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 15:44:07,081 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:44:07,081 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:44:07,081 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:44:07,081 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:44:07,624 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:44:08,819 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 15:44:08,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 15:44:08,947 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 15:44:08,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 15:44:09,000 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 15:44:09,219 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 15:44:09,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 15:44:09,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 15:44:09,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 15:44:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 15:44:14,427 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 15:44:17,114 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 15:44:21,308 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 15:44:21,362 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 15:44:21,810 [11   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 15:44:21,836 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 2203.444ms
+INFO  2018-05-30 15:44:21,944 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7575.8805ms 302 
+INFO  2018-05-30 15:44:21,980 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 15:44:22,087 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.0972ms 200 text/html
+INFO  2018-05-30 15:44:22,106 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 15:44:22,152 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 15:44:22,180 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.1395ms 304 text/css
+INFO  2018-05-30 15:44:22,281 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 15:44:22,303 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 15:44:22,319 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 15:44:22,357 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.8273ms 304 application/javascript
+INFO  2018-05-30 15:44:22,371 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 15:44:22,391 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.6463ms 304 application/javascript
+INFO  2018-05-30 15:44:22,638 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:44:22,740 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 3075.4138ms
+INFO  2018-05-30 15:44:22,751 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5671.2024ms 200 application/json; charset=utf-8
+INFO  2018-05-30 15:44:23,054 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 15:44:23,067 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 15:44:23,140 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 15:44:23,158 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.0633ms 404 
+INFO  2018-05-30 15:44:23,172 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 15:44:23,186 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.033ms 404 
+INFO  2018-05-30 15:44:23,502 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 406.5101ms 200 application/json
+INFO  2018-05-30 15:44:31,426 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 15:44:31,725 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 15:44:31,796 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:44:31,828 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 368.8759ms
+INFO  2018-05-30 15:44:31,924 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 420.9303ms 200 application/json; charset=utf-8
+DEBUG 2018-05-30 15:49:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-30 15:49:37,732 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-30 15:49:37,768 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.Web.Host.Startup.ZyaWebWebHostModule, ZyaWeb.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebWebCoreModule, ZyaWeb.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebApplicationModule, ZyaWeb.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.ZyaWebCoreModule, ZyaWeb.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZyaWeb.EntityFrameworkCore.ZyaWebEntityFrameworkModule, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:37,779 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-30 15:49:37,881 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:49:37,881 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:49:37,881 [1    ] o.Configuration.LanguageManagementConfig - Converted ZyaWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:49:37,881 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-30 15:49:38,318 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZyaWeb.EntityFrameworkCore.ZyaWebDbContext, ZyaWeb.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-30 15:49:39,419 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-30 15:49:39,522 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-30 15:49:39,577 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-30 15:49:39,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZyaWeb
+DEBUG 2018-05-30 15:49:39,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-30 15:49:39,663 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-30 15:49:39,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-30 15:49:39,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-30 15:49:39,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.CreateUserDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Users.Dto.UserDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.PermissionDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Roles.Dto.RoleDto
+DEBUG 2018-05-30 15:49:39,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-30 15:49:39,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-30 15:49:39,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZyaWeb.Articles.Dtos.ArticleDto
+INFO  2018-05-30 15:49:43,824 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 15:49:45,291 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 15:49:45,986 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:49:46,081 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 1073.9152ms
+INFO  2018-05-30 15:49:46,095 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2305.9512ms 200 application/json; charset=utf-8
+INFO  2018-05-30 15:49:53,525 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-30 15:49:54,521 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-30 15:49:54,562 [5    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-30 15:49:54,588 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Web.Host.Controllers.HomeController.Index (ZyaWeb.Web.Host) in 1008.4827ms
+INFO  2018-05-30 15:49:54,615 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1083.9155ms 302 
+INFO  2018-05-30 15:49:54,631 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-30 15:49:54,674 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.8969ms 200 text/html
+INFO  2018-05-30 15:49:54,681 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-30 15:49:54,713 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-30 15:49:54,728 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.6804ms 304 text/css
+INFO  2018-05-30 15:49:54,822 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-30 15:49:54,848 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-30 15:49:54,877 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-30 15:49:54,931 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-30 15:49:54,952 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.1406ms 304 application/javascript
+INFO  2018-05-30 15:49:54,964 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.0158ms 304 application/javascript
+INFO  2018-05-30 15:49:55,185 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2018-05-30 15:49:55,196 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.1293ms 404 
+INFO  2018-05-30 15:49:55,400 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-30 15:49:55,432 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-30 15:49:55,533 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2018-05-30 15:49:55,574 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.2595ms 404 
+INFO  2018-05-30 15:49:55,956 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 556.7511ms 200 application/json
+INFO  2018-05-30 15:50:11,612 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 15:50:11,654 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 15:50:11,689 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:50:11,713 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 62.5546ms
+INFO  2018-05-30 15:50:11,720 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.054ms 200 application/json; charset=utf-8
+INFO  2018-05-30 15:50:25,970 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 91
+INFO  2018-05-30 15:50:26,006 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 15:50:26,047 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 15:50:26,198 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+ERROR 2018-05-30 15:50:34,636 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: UPDATE 语句与 FOREIGN KEY 约束"FK_Articles_Persons_PersonId"冲突。该冲突发生于数据库"ZyaWebDb"，表"dbo.Persons", column 'Id'。
+语句已终止。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__49.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\AbpDbContext.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.<SaveChangesAsync>d__98.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore.EntityFrameworkCore\Zero\EntityFrameworkCore\AbpZeroCommonDbContext.cs:line 165
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesInDbContextAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 163
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesAsync>d__12.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<CompleteUowAsync>d__14.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkBase.<CompleteAsync>d__57.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 276
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter.<OnActionExecutionAsync>d__4.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Uow\AbpUowActionFilter.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-30 15:50:34,901 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:50:34,908 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 8881.794ms
+INFO  2018-05-30 15:50:34,920 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8969.7017ms 500 application/json; charset=utf-8
+INFO  2018-05-30 15:50:43,454 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle  
+INFO  2018-05-30 15:50:43,473 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.3921ms 404 
+INFO  2018-05-30 15:52:18,897 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Article/CreateOrUpdateArticle application/json 89
+INFO  2018-05-30 15:52:18,902 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 15:52:18,931 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-30 15:52:18,959 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.CreateOrUpdateArticleInput) - ModelState is Valid
+INFO  2018-05-30 15:52:49,739 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:52:49,765 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.CreateOrUpdateArticle (ZyaWeb.Application) in 30833.5109ms
+INFO  2018-05-30 15:52:49,772 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30893.4485ms 200 application/json; charset=utf-8
+INFO  2018-05-30 15:52:50,100 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Article/GetPagedArticles  
+INFO  2018-05-30 15:52:50,136 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) with arguments (ZyaWeb.Articles.Dtos.GetArticlesInput) - ModelState is Valid
+INFO  2018-05-30 15:52:50,155 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:52:50,180 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Articles.ArticleAppService.GetPagedArticles (ZyaWeb.Application) in 49.5748ms
+INFO  2018-05-30 15:52:50,187 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.0688ms 200 application/json; charset=utf-8
+INFO  2018-05-30 15:53:06,760 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPagedPersons  
+INFO  2018-05-30 15:53:07,037 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) with arguments (ZyaWeb.Persons.Dtos.GetPersonsInput) - ModelState is Valid
+INFO  2018-05-30 15:53:07,175 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-30 15:53:07,188 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ZyaWeb.Persons.PersonAppService.GetPagedPersons (ZyaWeb.Application) in 409.5889ms
+INFO  2018-05-30 15:53:07,194 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 434.3477ms 200 application/json; charset=utf-8

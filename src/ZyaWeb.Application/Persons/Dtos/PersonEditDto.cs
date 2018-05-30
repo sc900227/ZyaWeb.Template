@@ -8,7 +8,7 @@ using Abp.AutoMapper;
 
 namespace ZyaWeb.Persons.Dtos
 {
-    [AutoMapTo(typeof(Person))]
+    
     public class PersonEditDto
     {
         ////BCC/ BEGIN CUSTOM CODE SECTION

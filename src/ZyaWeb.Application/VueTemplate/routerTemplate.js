@@ -235,7 +235,7 @@ export const appRouter = [
         name: 'zyaweb-page',
         component: Main,
         children: [
-            {"path":"PersonInfoPage","title":"人员管理","name":"PersonInfoPage","icon":"document-text","component":"() => import('@/views/PersonInfoPage/PersonInfoPage.vue')"},$RouterItem$
+            {"path":"PersonInfoPage","title":"人员管理","name":"PersonInfoPage","icon":"document-text","component":"() => import('@/views/PersonInfoPage/PersonInfoPage.vue')"},{"path":"ArticleInfoPage","title":"文章管理","name":"ArticleInfoPage","icon":"document-text","component":"() => import('@/views/ArticleInfoPage/ArticleInfoPage.vue')"},$RouterItem$
         ]
 
     },
