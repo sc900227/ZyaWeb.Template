@@ -16,9 +16,10 @@ using ZyaWeb.EntityFrameworkCore;
 namespace ZyaWeb.Migrations
 {
     [DbContext(typeof(ZyaWebDbContext))]
-    partial class ZyaWebDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190212082945_modify-tableArticle3")]
+    partial class modifytableArticle3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

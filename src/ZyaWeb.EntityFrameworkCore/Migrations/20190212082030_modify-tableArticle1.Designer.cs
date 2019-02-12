@@ -16,9 +16,10 @@ using ZyaWeb.EntityFrameworkCore;
 namespace ZyaWeb.Migrations
 {
     [DbContext(typeof(ZyaWebDbContext))]
-    partial class ZyaWebDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190212082030_modify-tableArticle1")]
+    partial class modifytableArticle1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1106,7 +1107,7 @@ namespace ZyaWeb.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Person");
+                    b.ToTable("Persons");
                 });
 
             modelBuilder.Entity("Abp.Application.Features.EditionFeatureSetting", b =>

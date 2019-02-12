@@ -25,6 +25,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VueApp", "VueApp", "{E4BBF9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZyaWeb.VueApp", "ZyaWeb.VueApp\ZyaWeb.VueApp.csproj", "{FB28F517-5481-4362-8498-0F8F133A37C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A146915A-9CF9-4B2E-9330-74D4DE391172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{C5D74981-2A8F-4F95-A6E0-67FB028BE229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{C93E47C1-B5D7-445E-AFCA-34DD8A4AFD5B}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\shaoc\Desktop\homepage.png = C:\Users\shaoc\Desktop\homepage.png
+		C:\Users\shaoc\Desktop\Startup_config1.png = C:\Users\shaoc\Desktop\Startup_config1.png
+		C:\Users\shaoc\Desktop\Startup_config2.png = C:\Users\shaoc\Desktop\Startup_config2.png
+		C:\Users\shaoc\Desktop\Startup_config3.png = C:\Users\shaoc\Desktop\Startup_config3.png
+		C:\Users\shaoc\Desktop\Startup_config4.png = C:\Users\shaoc\Desktop\Startup_config4.png
+		C:\Users\shaoc\Desktop\Startup_config5.png = C:\Users\shaoc\Desktop\Startup_config5.png
+		C:\Users\shaoc\Desktop\Startup_config6.png = C:\Users\shaoc\Desktop\Startup_config6.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +91,8 @@ Global
 		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{FB28F517-5481-4362-8498-0F8F133A37C8} = {E4BBF931-37ED-4ED8-BA13-B38E38814521}
+		{C5D74981-2A8F-4F95-A6E0-67FB028BE229} = {A146915A-9CF9-4B2E-9330-74D4DE391172}
+		{C93E47C1-B5D7-445E-AFCA-34DD8A4AFD5B} = {C5D74981-2A8F-4F95-A6E0-67FB028BE229}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5DFEF18-F0AE-423D-8C15-2C76B661028B}

@@ -3,6 +3,7 @@ using Abp.Domain.Entities.Auditing;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using ZyaWeb.PersonArticles.Persons;
 
@@ -11,6 +12,7 @@ namespace ZyaWeb.PersonArticles.Articles
     /// <summary>
     /// 文章表
     /// </summary>
+    [Table("Article")]
     public class Article: FullAuditedEntity
     {
         /// <summary>

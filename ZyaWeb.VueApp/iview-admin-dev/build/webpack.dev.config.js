@@ -20,10 +20,10 @@ module.exports = merge(webpackBaseConfig, {
         chunkFilename: '[name].chunk.js'
     },
     devServer: {
-        port: 8080,
+        port: 8888,
         proxy: {
             '/api':{
-                target:'http://localhost:21021',
+                target:'http://localhost:5000',
                 changeOrigin:true,
                 pathRewrite:{
                     '^/api':"/api"

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using ZyaWeb.PersonArticles.Articles;
 
@@ -10,6 +11,7 @@ namespace ZyaWeb.PersonArticles.Persons
     /// <summary>
     /// 人员信息表
     /// </summary>
+    [Table("Person")]
     public class Person: FullAuditedEntity
     {
         /// <summary>
